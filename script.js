@@ -9,10 +9,16 @@ function addClick(item){
         ecran.value += buttonValue;
     })
     document.getElementById("result").addEventListener("click", function() {
-        var display = document.getElementById("display");
+        const display = document.getElementById("display");
         display.value = eval(display.value);
+        /* comment je peux enlever le sigle "=" à l'affichage */
+
         })
+
     document.getElementById("supp").addEventListener("click", function() {
-            var display = document.getElementById("display").value = "";
-            });    
+            const display = document.getElementById("display").value = "";
+            });   
+        /* comment je peux faire un light screen dés que des chiffres 
+        se mettent dans le display */ 
+            
 }
