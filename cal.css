@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     outline: none;
+    box-sizing: border-box;
 }
 body{
    max-width: 100vw;
@@ -11,6 +12,7 @@ body{
    justify-content: center;
    align-items: center;
    font-family: sans-serif;
+   background: #000;
 }
 .calculatrice{
    width: 340px;
